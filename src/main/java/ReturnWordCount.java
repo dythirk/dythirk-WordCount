@@ -7,7 +7,7 @@ public class ReturnWordCount {
     public int count(String in){
         int spaces = 0;
         for (int i = 0; i < in.length(); i++){
-            if (in.charAt(i) == " ")
+            if (in.charAt(i) == ' ')
                 spaces++;
         }
         if (spaces == 0)
